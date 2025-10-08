@@ -1,0 +1,32 @@
+# node_modules không cần, sẽ install trong container
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Không cần mấy file lock nếu không copy vào để build reproducible
+*.swp
+*.swo
+
+# Git & Editor config
+.git
+.gitignore
+.DS_Store
+.vscode
+.idea
+
+# Output Next.js
+.next
+out
+
+# Optional: tránh copy test và docs vào image production
+tests
+__tests__
+coverage
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+docs
+.storybook
