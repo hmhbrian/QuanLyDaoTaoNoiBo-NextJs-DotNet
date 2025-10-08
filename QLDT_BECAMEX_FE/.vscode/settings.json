@@ -1,8 +1,0 @@
-{
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "IDX.aI.enableCodebaseIndexing": true,
-  "IDX.aI.enableInlineCompletion": true
-}
