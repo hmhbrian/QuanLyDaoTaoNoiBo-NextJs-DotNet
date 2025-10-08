@@ -1,13 +1,22 @@
+<<<<<<< HEAD
 # 🎓 BECAMEX IDC - HỆ THỐNG QUẢN LÝ ĐÀO TẠO
 
 **Enterprise Training Management System** – Hệ thống quản lý đào tạo nội bộ được xây dựng theo mô hình **Full-stack**, gồm:
+=======
+# 🎓 BECAMEX IDC - ỨNG DỤNG QUẢN LÝ ĐÀO TẠO NỘI BỘ
+
+**Internal Training Management Application** – Ứng dụng quản lý đào tạo nội bộ, gồm:
+>>>>>>> b57416c92a22e3f33fb017a48572168e3ad7bf60
 
 - **Frontend:** Next.js 15, React 18, TypeScript, Tailwind CSS
 - **Backend:** ASP.NET Core 8, Entity Framework Core, SQL Server
 - **Tích hợp:** JWT Auth, Quartz Scheduler, Firebase Cloud Messaging (FCM), Cloudinary
 
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> b57416c92a22e3f33fb017a48572168e3ad7bf60
 ## 🧠 BACKEND – ASP.NET CORE 8 API
 
 ### 🎯 Công Nghệ Chính
@@ -66,7 +75,7 @@ Trong appsettings.json:
 Đặt file `firebase-service-account.json` vào thư mục:
 
 ```bash
-QLDT_BECAMEX_BE/secrets/firebase-service-account.json
+QLDT_BECAMEX_BE/QLDT_Becamex/secrets/firebase-service-account.json
 ```
 
 ### Bước 4: Tạo Database
