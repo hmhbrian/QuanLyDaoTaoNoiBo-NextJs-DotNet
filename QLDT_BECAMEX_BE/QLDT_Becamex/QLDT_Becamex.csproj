@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <Compile Remove="Src\Migrations\**" />
+    <Compile Remove="wwwroot\certificates\**" />
     <Content Remove="Src\Migrations\**" />
+    <Content Remove="wwwroot\certificates\**" />
     <EmbeddedResource Remove="Src\Migrations\**" />
+    <EmbeddedResource Remove="wwwroot\certificates\**" />
     <None Remove="Src\Migrations\**" />
+    <None Remove="wwwroot\certificates\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,7 +50,6 @@
 
   <ItemGroup>
     <Folder Include="Src\Infrastructure\Persistence\Migrations\" />
-    <Folder Include="wwwroot\certificates\" />
   </ItemGroup>
 
 </Project>

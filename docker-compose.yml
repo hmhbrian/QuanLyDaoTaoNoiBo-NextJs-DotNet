@@ -1,7 +1,6 @@
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: qldt_db
     restart: always
     environment:
       - ACCEPT_EULA=Y
@@ -30,7 +29,6 @@ services:
     build:
       context: ./QLDT_BECAMEX_BE/QLDT_Becamex
       dockerfile: Dockerfile
-    container_name: qldt_be
     restart: always
     ports:
       - "5228:5000"

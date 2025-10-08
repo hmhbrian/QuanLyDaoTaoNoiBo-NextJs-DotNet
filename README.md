@@ -42,7 +42,7 @@
 
 ### Bước 2: Cấu Hình Database
 
-Chạy Sql Bằng Docker (port:11433, username:sa, password:Abc12345@@) hoặc chạy trên local 
+Chạy Sql Bằng Docker (port:11433 IDE , 1433 trong Connecttring backend, username:sa, password:Abc12345@@) hoặc chạy trên local 
 Nếu chạy bằng docker sau khi chạy thành công thì chạy file Seed (QLDT.sql) trong Folder Backup để lấy dữ liệu
 Mặc định khi chạy ứng dụng bằng docker thì sẽ auto sử dụng file appsetting.production và env.production
 
