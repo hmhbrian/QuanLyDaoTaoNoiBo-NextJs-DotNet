@@ -1,6 +1,42 @@
-.vs/
+# Build Folders
 bin/
 obj/
-../xUnitQLDT_Becamex.Tests/bin/
-../xUnitQLDT_Becamex.Tests/obj/
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Logs
+*.log
+logs/
+
+# Publish folder
+publish/
+
+# Dotnet tool files
+.dotnet/
+
+# Rider local history
+.idea/
+
+# Other
+*.dbmdl
+*.dbproj.schemaview
+*.psess
+*.vsp
+*.vsix
+*.vscode
+
+# Next.js build output
+.next/

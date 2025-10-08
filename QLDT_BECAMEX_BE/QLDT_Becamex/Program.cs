@@ -228,9 +228,9 @@ var app = builder.Build();
 // 1. Cấu hình cho môi trường phát triển (Swagger)
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
 }
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseCors("AllowSpecificOrigin"); // Bật CORS ở middleware
 
 // 2. Middleware chuyển hướng HTTPS (Tùy chọn, hiện đang bị comment)
