@@ -1,6 +1,6 @@
-# 🎓 BECAMEX IDC - HỆ THỐNG QUẢN LÝ ĐÀO TẠO
+# 🎓 BECAMEX IDC - ỨNG DỤNG QUẢN LÝ ĐÀO TẠO NỘI BỘ
 
-**Enterprise Training Management System** – Hệ thống quản lý đào tạo nội bộ, gồm:
+**Internal Training Management Application** – Ứng dụng quản lý đào tạo nội bộ, gồm:
 
 - **Frontend:** Next.js 15, React 18, TypeScript, Tailwind CSS
 - **Backend:** ASP.NET Core 8, Entity Framework Core, SQL Server
